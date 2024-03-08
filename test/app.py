@@ -10,7 +10,7 @@ import numpy as np
 
 app =  Flask(__name__)
 
-# route�� ����
+# route folder
 
 @app.route('/', methods = ['POST']) 
 def handle_request():
